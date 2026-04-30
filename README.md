@@ -186,7 +186,7 @@ Create `.env` in backend:
 ```env
 OPENROUTER_API_KEY=your_key
 GEMINI_API_KEY=your_key
-APP_URL=your_server_url
+NEXT_PUBLIC_APP_URL=your_server_url
 ```
 
 ---
