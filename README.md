@@ -184,8 +184,8 @@ npm run dev
 Create `.env` in backend:
 
 ```env
-OPENAI_API_KEY=your_key
-OLLAMA_BASE_URL=you_ollama_url
+OPENROUTER_API_KEY=your_key
+GEMINI_API_KEY=your_key
 APP_URL=your_server_url
 ```
 
