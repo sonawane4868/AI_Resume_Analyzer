@@ -38,8 +38,10 @@ export default function AuthCard({ mode }: { mode: "login" | "register" }) {
       }
 
       router.push("/dashboard");
-    } catch (err) {
-      setError("Invalid email or password");
+    } catch (err: unknown) {
+  console.error(err);
+  setError("Invalid email or password");
+
     } finally {
       setLoading(false);
     }

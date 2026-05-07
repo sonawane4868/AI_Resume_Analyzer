@@ -15,6 +15,8 @@ export default function ScoreChart({ results }: any) {
     score: r.score,
   }));
 
+  console.log(data)
+
   return (
     <div className="bg-[#1a1a1a] p-6 rounded-xl border border-gray-800">
       <h3 className="mb-4">Score Distribution</h3>

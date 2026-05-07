@@ -64,7 +64,7 @@ export default function HistoryPage() {
         break;
       }
     }
-  }, [search]);
+  }, [search , filteredGrouped]);
 
   // 🔥 EMPTY CHECK
   const hasAnyResults = Object.values(filteredGrouped).some(

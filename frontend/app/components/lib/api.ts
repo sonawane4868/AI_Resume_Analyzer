@@ -3,7 +3,7 @@ let refreshPromise: Promise<any> | null = null;
 
 export async function apiFetch(url: string, options: any = {}) {
   console.log("BASE URL:", process.env.NEXT_PUBLIC_APP_URLfetch);
-  let res = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}${url}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}${url}`, {
     ...options,
     credentials: "include",
   });
